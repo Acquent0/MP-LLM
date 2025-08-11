@@ -195,3 +195,13 @@ cython_debug/
 
 .idea/
 out/
+lib.zip
+*.vrp
+*.sol
+FSMD.txt
+FSMF.txt
+FSMFD.txt
+HVRPFD.txt
+HVRPD.txt
+FSMFD_T3-6,13-20.txt
+HVRPD_Taillard_13-20.txt

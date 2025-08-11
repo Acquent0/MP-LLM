@@ -1,0 +1,14 @@
+[
+     {
+          "algorithm": "\nThe algorithm randomly selects a node and uses the sequence of its nearest nodes for local optimization.\n",
+          "code": "package Perturbation;\n\nimport java.util.Random;\nimport Solution.Node;\n\npublic class WeightMatrixUpdator {\n\n    public static int[] nodes_seq(int[][] nodesKnn, int numberSelect, Node[] solution, float average_nodes){\n        int[] selectedNodes = new int[numberSelect];\n        Random rand = new Random();\n        int instanceSize = nodesKnn.length;\n        int randomNode = rand.nextInt(instanceSize);\n\n        System.arraycopy(nodesKnn[randomNode], 0, selectedNodes, 0, numberSelect);\n\n        return selectedNodes;\n    }\n}",
+          "objective": null,
+          "other_inf": null
+     },
+     {
+          "algorithm": "\nThe algorithm randomly selects a node and uses the sequence of its nearest nodes for local optimization.\n",
+          "code": "package Perturbation;\n\nimport java.util.Random;\nimport Solution.Node;\n\npublic class WeightMatrixUpdator {\n\n    public static int[] nodes_seq(int[][] nodesKnn, int numberSelect, Node[] solution, float average_nodes){\n        int[] selectedNodes = new int[numberSelect];\n        Random rand = new Random();\n        int instanceSize = nodesKnn.length;\n        int randomNode = rand.nextInt(instanceSize);\n\n        System.arraycopy(nodesKnn[randomNode], 0, selectedNodes, 0, numberSelect);\n\n        return selectedNodes;\n    }\n}",
+          "objective": null,
+          "other_inf": null
+     }
+]
